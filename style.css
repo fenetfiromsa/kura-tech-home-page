@@ -1,0 +1,174 @@
+body {
+  background: linear-gradient(to right, #bfee8e, #ffffff);  
+  width: 100%;
+   margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
+}
+
+ 
+ .navigation{
+    display: flex;
+    padding: 30px;
+    gap: 70px;
+    background-color: rgb(246, 246, 249);
+    margin-top: 40px;
+    width: 100%;
+ } 
+ .pages a{
+   padding-right: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: larger;
+   color: rgb(56, 54, 54);
+   text-decoration: none;
+ }
+ 
+ .searchinput{
+  margin-left: 1px;
+  height: 35px;
+ }
+ .searches{
+  margin-left: 0%;
+ }
+ .searchbutton{
+  height: 35px;
+  background-color: #76a939;
+  border-color: #76a939;
+ }
+ .thebuttons{
+  display: flex;
+  gap: 10px;
+  
+ }
+ .thebuttons button{
+   
+  border-color: transparent;
+  border: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: larger;
+   color: rgb(21, 9, 9);
+ }
+    
+    .dropdown {
+      position: relative;
+      display: flex;
+      
+    }
+
+    .dropdown-button {
+      background-color: #f0f0f0;
+      color: black;
+      padding: 10px 16px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 4px;
+      height: 35px;
+      width: 150px;
+    }
+
+    .dropdown-content {
+      display: none; 
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+  
+    .show {
+      display: block;
+    }
+
+
+    .cartimg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .searchimg{
+        width: 15px;
+        height: 15px;
+    }
+
+
+    
+    .mainpagepart{
+      display: flex;
+      gap: 30px;
+    }
+    .mainpagepart img{
+      height: 450px;
+      width: 550px;
+      padding: 30px;
+    }
+ 
+
+
+
+
+.theleftpart {
+  max-width: 600px;
+   padding-top: 120px;
+      padding-left: 90px;
+}
+
+.theleftpart h1 {
+  font-size: 42px;
+  color: #4a7c2c;
+  margin-bottom: 20px;
+}
+
+.theleftpart p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Universal button styles */
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+/* Outlined green button */
+.btn-outline-green {
+  color: #5ca946;
+  background-color: transparent;
+  border: 2px solid #5ca946;
+}
+
+.btn-outline-green:hover {
+  background-color: #5ca946;
+  color: white;
+}
+
+/* Solid green button */
+.btn-solid-green {
+  background-color: #8bc34a;
+  color: white;
+  border: none;
+}
+
+.btn-solid-green:hover {
+  background-color: #76a939;
+}
+
+
